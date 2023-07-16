@@ -1,15 +1,13 @@
 import styled from '@emotion/styled';
 
 export const IconButtonStyle = styled.button`
-  margin-left: 10px;
+  margin-left: 7px;
   border: none;
-  border-radius: 4px;
+  border-radius: 50%;
   outline: none;
   padding: 10px;
   background-color: #400080;
-  color: #ffffff;
-
-  cursor: pointer;
+  color: #FFD233;
 
   & svg {
     display: block;
@@ -17,6 +15,6 @@ export const IconButtonStyle = styled.button`
 
   &:hover {
     background-color: #5218fa;
-    outline: 2px solid #ffffff;
+    outline: 2px solid #FFD233;
   }
 `;

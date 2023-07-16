@@ -11,8 +11,8 @@ export const FilterWrapper = styled.div`
 export const Input = styled.input`
   margin: 0;
   outline: none;
-  width: 60%;
-  border: 1px solid #333340;
+  width: 45%;
+  border: 2px solid #FFD233;
   border-radius: 5px;
   padding: 10px;
 
@@ -23,5 +23,8 @@ export const Input = styled.input`
 `;
 
 export const Label = styled.label`
-  font-size: 20px;
+  font-size: 26px;
+  letter-spacing: 2px;
+  color: #ffda00;
+
 `;

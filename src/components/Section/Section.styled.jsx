@@ -6,7 +6,9 @@ export const SectionStyle = styled.section`
 `;
 
 export const Title = styled.h2`
-  font-size: 24px;
+  font-size: 34px;
+  letter-spacing: 3px;
+  color: #ffda00;
   margin-top: 20px;
   margin-bottom: 20px;
 `;
